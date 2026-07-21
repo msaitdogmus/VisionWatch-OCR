@@ -1,8 +1,11 @@
+# Python environments and caches
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Package and application output
 build/
 dist/
 runtime/
@@ -11,6 +14,8 @@ models/
 *.log
 *.jsonl
 *.csv
+
+# Editor and operating-system files
 .idea/
 .vscode/
 .DS_Store
