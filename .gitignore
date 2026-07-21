@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+runtime/
+models/
+*.onnx
+*.log
+*.jsonl
+*.csv
+.idea/
+.vscode/
+.DS_Store
