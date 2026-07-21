@@ -4,7 +4,7 @@ VisionWatch monitors two Windows application windows, reads short text or
 numbers locally and evaluates a configurable alert rule whenever fresh content
 appears.
 
-![VisionWatch half-screen evidence view](docs/visionwatch-evidence.png)
+![VisionWatch half-screen evidence view](docs/ocr-evidence-preview.png)
 
 ## What it demonstrates
 
