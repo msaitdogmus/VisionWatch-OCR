@@ -4,6 +4,8 @@ from visionwatch import FreshReadingTracker, SafeFormula
 
 
 class FormulaAndFreshnessTests(unittest.TestCase):
+    """Cover rule safety and source-specific duplicate suppression."""
+
     def test_customer_range_rule(self) -> None:
         self.assertTrue(SafeFormula.evaluate("x >= 100 and x < 200", 128.5))
         self.assertFalse(SafeFormula.evaluate("x < 0", 128.5))
