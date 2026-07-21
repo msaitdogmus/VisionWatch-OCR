@@ -18,6 +18,7 @@ class SafeFormula:
 
     @classmethod
     def evaluate(cls, expression: str, x: float) -> bool:
+        """Return the rule decision without exposing Python built-ins."""
         tree = ast.parse(expression.strip(), mode="eval")
 
         # Reject the expression before compilation if even one node is outside
