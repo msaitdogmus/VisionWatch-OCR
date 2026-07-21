@@ -15,6 +15,8 @@ class ReadingDecision:
 
 
 class FreshReadingTracker:
+    """Remember the last reading independently for every capture source."""
+
     def __init__(self) -> None:
         self._last_text: dict[str, str] = {}
 
