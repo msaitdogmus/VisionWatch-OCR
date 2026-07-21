@@ -7,6 +7,7 @@ import numpy as np
 
 
 def prepare_for_ocr(image: np.ndarray, scale: float = 1.8) -> np.ndarray:
+    """Normalize a captured frame while preserving character edges."""
     if image.size == 0:
         raise ValueError("The capture is empty")
     if scale < 1.0 or scale > 4.0:
