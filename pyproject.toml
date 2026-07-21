@@ -5,12 +5,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "visionwatch-portfolio"
 version = "1.2.0"
-description = "Selected local OCR monitoring components"
+description = "Safe local OCR preprocessing and alert-decision components"
 requires-python = ">=3.11"
 dependencies = [
   "numpy>=2.0",
   "opencv-python>=4.10"
 ]
+
+[project.urls]
+Repository = "https://github.com/msaitdogmus/VisionWatch-OCR"
 
 [tool.setuptools.packages.find]
 where = ["src"]
