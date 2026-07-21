@@ -22,3 +22,8 @@ application as old.
 All recognition happens locally. The complete application binds its UI bridge
 to loopback only and writes event history to the operating system's application
 data location.
+
+## Decision boundary
+
+Only readings above the confidence threshold reach the rule evaluator. An alert
+is emitted when that rule matches a fresh value for the current source.
